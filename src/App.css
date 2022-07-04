@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: lightseagreen;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+#root {
+  background-image: url(./assets/cloud.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.container {
+
+  width: 50%;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+.boton {
+  cursor: pointer;
+  width: 8rem;
+  background-color: inherit;
+  border-radius: 1rem;
+}
